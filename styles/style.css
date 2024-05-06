@@ -1,41 +1,31 @@
-/* p,
-ol > li {
-    color: rgb(236, 225, 225);
-    width: 500px;
-    border: 1px solid black;
-}
-p:first-child::first-line{
-        font-size: 120%;
-        font-weight: bold;
-    }
-a:after {
-    content: " ➥";
-} */
-body {
-    width: 600px;
-    margin: 0 auto;
-    background-color: #ff9500;
-    padding: 0 20px 20px 20px;
-    border: 5px solid black;
-    text-shadow: 3px 3px 11px black;
-}
 html {
+    background-color: #c0d8ee;
     font-size: 10px;
     /* px 表示“像素（pixel）”: 基础字号为 10 像素 */
     font-family: "Open Sans", sans-serif;
     /* 这应该是你从 Google Fonts 得到的其余输出。 */
 }
-h1 {
-    font-size: 30px;
+
+body {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #ff9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid rgb(157, 212, 108);
+    text-shadow: 3px 3px 11px rgb(94, 90, 90);
+}
+
+p {
+    color: rgb(0, 0, 0);
+    width: 500px;
+    font-size: 80px;
+    font-family: cursive;
+    font-weight: bold;
     text-align: center;
 }
 
-p,
-li {
-    font-size: 16px;
-    line-height: 2;
-    letter-spacing: 1px;
-}
-html {
-    background-color: #c0d8ee;
-}
+
+
+
+

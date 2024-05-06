@@ -1,5 +1,5 @@
-// let myHeading = document.querySelector("h1");
-// myHeading.textContent = "Hello world!";
+let myHeading = document.querySelector("p");
+myHeading.textContent = "内容待定...";
 let myVariable;
 myVariable = "李雷";
 document.querySelector("html").addEventListener("click", function () {
